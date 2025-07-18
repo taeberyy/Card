@@ -2,16 +2,16 @@ const btn = document.getElementById('btn');
 const music = document.getElementById('music');
 
 const heartEmoji = '💗';
-const minSize = 15;
-const maxSize = 35;
-const minDuration = 3;
-const maxDuration = 6;
-const spawnRate = 300; 
+const minSize = 5;
+const maxSize = 50;
+const minDuration = 5;
+const maxDuration = 8;
+const spawnRate = 200; 
 
 btn.addEventListener("click", func, {once:true});
 
 function func() {
-    alert ("");
+    alert ("This song about to play reminds me of you!");
     music.play();
 
     function createHeart() {
