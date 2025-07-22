@@ -100,7 +100,7 @@ body {
 .container:hover #cover {
   transform: rotateY(-140deg);
   transition: 1s ease; 
-  box-shadow: 5px 5px 5px 5px hsla(0, 0%, 1%, 0.306), 
+  box-shadow: 5px 5px 5px 5px #0202024e, 
   inset 0px 2px 1px 1px #0202024e;
 }
 
@@ -109,6 +109,7 @@ body {
   transition: 1s ease;
   box-shadow: 5px 5px 5px 5px #0202024e, 
   inset 10px 10px 50px 5px #0202024e;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #cover img {
